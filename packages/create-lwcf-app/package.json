@@ -1,6 +1,6 @@
 {
   "name": "create-lwcf-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Create command-line app with no configuration required",
   "author": {
     "name": "Christian Hansen",
@@ -45,7 +45,7 @@
     "cross-spawn": "^7.0.1",
     "got": "^10.5.5",
     "is-online": "^8.2.1",
-    "lwcf": "^0.0.7",
+    "lwcf": "^0.0.8",
     "prompts": "^2.3.0",
     "tar": "^6.0.1",
     "validate-npm-package-name": "^3.0.0"
