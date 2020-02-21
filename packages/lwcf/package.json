@@ -27,7 +27,7 @@
   "directories": {
     "lib": "lib"
   },
-  "files": ["/lib"],
+  "files": ["lib"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ch99q/lwcf.git",

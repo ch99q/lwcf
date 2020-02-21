@@ -33,8 +33,9 @@
     "lib": "lib"
   },
   "files": [
-    "/bin",
-    "/lib"
+    "bin",
+    "lib",
+    "default"
   ],
   "repository": {
     "type": "git",
