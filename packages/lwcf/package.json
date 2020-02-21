@@ -1,6 +1,6 @@
 {
   "name": "lwcf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An open-source lightweight command-line framework",
   "author": {
     "name": "Christian Hansen",
@@ -27,9 +27,7 @@
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "/lib"
-  ],
+  "files": ["/lib"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ch99q/lwcf.git",
