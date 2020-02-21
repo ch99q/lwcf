@@ -42,10 +42,10 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: yarn publish-ci
+      - run: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
         env:
-          NPM_CONFIG_OTP: 123456
-          NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+      - run: yarn publish-ci
 
   publish-gpr:
     needs: build
@@ -58,8 +58,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@ch99q"
       - run: yarn
-      - run: yarn bootstrap
-      - run: yarn publish-ci
+      - run: 'echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
         env:
-          NPM_CONFIG_OTP: 123456
-          NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: yarn publish-ci
