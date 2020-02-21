@@ -1,5 +1,13 @@
 # create-lwcf-app
 
+## 0.0.7
+
+### Patch Changes
+
+- b88c652: Added content to releases
+- Updated dependencies [b88c652]
+  - lwcf@0.0.7
+
 ## 0.0.6
 
 ### Patch Changes
