@@ -1,5 +1,11 @@
 # lwcf
 
+## 0.0.8
+
+### Patch Changes
+
+- 771e1b8: Fixed functionality
+
 ## 0.0.7
 
 ### Patch Changes

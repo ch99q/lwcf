@@ -1,5 +1,13 @@
 # create-lwcf-app
 
+## 0.0.8
+
+### Patch Changes
+
+- 771e1b8: Fixed functionality
+- Updated dependencies [771e1b8]
+  - lwcf@0.0.8
+
 ## 0.0.7
 
 ### Patch Changes
