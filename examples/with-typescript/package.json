@@ -1,16 +1,15 @@
 {
-    "private": true,
-    "name": "with-typescript",
-    "version": "1.0.0",
-    "bin": "bin/run",
-    "main": "bin/run",
-    "module": "src/index.ts",
-    "dependencies": {
-      "lwcf": "*"
-    },
-    "devDependencies": {
-        "typescript": "^3.7.5"
-    },
-    "license": "ISC"
-  }
-  
+  "private": true,
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "bin": "bin/run",
+  "main": "bin/run",
+  "module": "src/index.ts",
+  "dependencies": {
+    "lwcf": "*"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "license": "ISC"
+}
