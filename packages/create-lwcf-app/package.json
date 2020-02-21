@@ -22,11 +22,8 @@
     "command-line",
     "framework"
   ],
-  "bin": {
-    "create-lwcf-app": "bin/run"
-  },
-  "main": "bin/run",
-  "module": "src/index.ts",
+  "bin": "bin/run",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
     "bin": "bin",

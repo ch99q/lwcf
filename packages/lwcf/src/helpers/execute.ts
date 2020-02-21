@@ -38,10 +38,7 @@ export async function run(options?: CLI.Options) {
   }
 
   // Find the main script with focus on build first.
-  let script: string = path.resolve(
-    rootDir,
-    pkg.module || pkg.directories?.lib || pkg.main
-  );
+  let script: string = path.resolve(rootDir, pkg.main);
 
   try {
     try {
