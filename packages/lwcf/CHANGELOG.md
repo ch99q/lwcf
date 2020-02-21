@@ -1,5 +1,11 @@
 # lwcf
 
+## 0.0.5
+
+### Patch Changes
+
+- b94c221: Fixed publishing tag
+
 ## 0.0.4
 
 ### Patch Changes
