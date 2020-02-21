@@ -1,5 +1,13 @@
 # create-lwcf-app
 
+## 0.0.5
+
+### Patch Changes
+
+- b94c221: Fixed publishing tag
+- Updated dependencies [b94c221]
+  - lwcf@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
