@@ -27,14 +27,13 @@
   "directories": {
     "lib": "lib"
   },
-  "files": ["/lib"],
+  "files": [
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ch99q/lwcf.git",
     "directory": "packages/lwcf"
-  },
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
   },
   "devDependencies": {
     "ts-node": "^8.6.2",
@@ -51,5 +50,6 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "gitHead": "d870f11ba1fdc1cd707d01b4cc8be8825fdaece5"
 }

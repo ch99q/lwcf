@@ -41,16 +41,13 @@
     "url": "https://github.com/ch99q/lwcf.git",
     "directory": "packages/create-lwcf-app"
   },
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
-  },
   "dependencies": {
-    "lwcf": "^0.0.2",
     "chalk": "^3.0.0",
     "cpy": "^8.0.0",
     "cross-spawn": "^7.0.1",
     "got": "^10.5.5",
     "is-online": "^8.2.1",
+    "lwcf": "^0.0.2",
     "prompts": "^2.3.0",
     "tar": "^6.0.1",
     "validate-npm-package-name": "^3.0.0"
@@ -65,5 +62,6 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "gitHead": "d870f11ba1fdc1cd707d01b4cc8be8825fdaece5"
 }
