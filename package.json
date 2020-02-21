@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Christian Hansen",
+    "email": "64793a1a@gmail.com",
+    "url": "https://github.com/ch99q"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "publish": "lerna publish",
+    "publish-ci": "lerna publish from-package -y --no-verify-access"
+  },
+  "devDependencies": {
+    "husky": "^4.2.1",
+    "lerna": "^3.20.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css,html}": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
+    ]
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.5.1"
+  }
+}

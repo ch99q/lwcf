@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "with-javascript",
+  "version": "1.0.0",
+  "bin": "bin/run",
+  "main": "bin/run",
+  "module": "src/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "lwcf": "*"
+  },
+  "license": "ISC"
+}

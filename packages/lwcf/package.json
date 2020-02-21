@@ -1,0 +1,57 @@
+{
+  "name": "lwcf",
+  "version": "0.0.1",
+  "description": "An open-source lightweight command-line framework",
+  "author": {
+    "name": "Christian Hansen",
+    "email": "64793a1a@gmail.com",
+    "url": "https://github.com/ch99q"
+  },
+  "contributors": [
+    {
+      "name": "Christian Hansen",
+      "email": "64793a1a@gmail.com",
+      "url": "https://github.com/ch99q"
+    }
+  ],
+  "homepage": "https://github.com/ch99q/lwcf",
+  "bugs": "https://github.com/ch99q/lwcf/issues",
+  "license": "MIT",
+  "keywords": [
+    "lwcf",
+    "command-line",
+    "framework"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ch99q/lwcf.git",
+    "directory": "packages/lwcf"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rm -rf lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

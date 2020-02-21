@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "private": true,
+  "bin": "index.js",
+  "main": "index.js",
+  "dependencies": {
+    "lwcf": "latest"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const lwcf = require("lwcf");
+
+lwcf
+  .run({})
+  .then(lwcf.flush)
+  .catch(lwcf.handle);

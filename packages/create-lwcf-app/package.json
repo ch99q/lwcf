@@ -1,0 +1,69 @@
+{
+  "name": "create-lwcf-app",
+  "version": "0.0.1",
+  "description": "Create command-line app with no configuration required",
+  "author": {
+    "name": "Christian Hansen",
+    "email": "64793a1a@gmail.com",
+    "url": "https://github.com/ch99q"
+  },
+  "contributors": [
+    {
+      "name": "Christian Hansen",
+      "email": "64793a1a@gmail.com",
+      "url": "https://github.com/ch99q"
+    }
+  ],
+  "homepage": "https://github.com/ch99q/lwcf",
+  "bugs": "https://github.com/ch99q/lwcf/issues",
+  "license": "MIT",
+  "keywords": [
+    "lwcf",
+    "command-line",
+    "framework"
+  ],
+  "bin": {
+    "create-lwcf-app": "bin/run"
+  },
+  "main": "bin/run",
+  "module": "src/index.ts",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ch99q/lwcf.git",
+    "directory": "packages/create-lwcf-app"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "dependencies": {
+    "lwcf": "^0.0.1",
+    "chalk": "^3.0.0",
+    "cpy": "^8.0.0",
+    "cross-spawn": "^7.0.1",
+    "got": "^10.5.5",
+    "is-online": "^8.2.1",
+    "prompts": "^2.3.0",
+    "tar": "^6.0.1",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rm -rf lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
