@@ -1,5 +1,13 @@
 # create-lwcf-app
 
+## 0.0.4
+
+### Patch Changes
+
+- 50c6f96: Automatic publishing
+- Updated dependencies [50c6f96]
+  - lwcf@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes
