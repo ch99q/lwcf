@@ -14,7 +14,7 @@
     "clean": "lerna run clean",
     "build": "lerna run build",
     "publish": "lerna publish",
-    "publish-ci": "lerna publish from-package -y --no-verify-access --canary --preid ci --npm-tag=ci --force-publish=*"
+    "publish-ci": "lerna publish from-package -y --no-verify-access --force-publish=*"
   },
   "devDependencies": {
     "husky": "^4.2.1",
