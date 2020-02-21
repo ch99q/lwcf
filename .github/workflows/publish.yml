@@ -45,6 +45,7 @@ jobs:
       - run: yarn
       - run: yarn publish-ci
         env:
+          NPM_CONFIG_OTP: 123456
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
   publish-gpr:
@@ -61,4 +62,5 @@ jobs:
       - run: yarn bootstrap
       - run: yarn publish-ci
         env:
+          NPM_CONFIG_OTP: 123456
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
