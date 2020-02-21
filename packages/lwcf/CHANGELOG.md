@@ -1,5 +1,11 @@
 # lwcf
 
+## 0.0.6
+
+### Patch Changes
+
+- 8790af7: Added production files
+
 ## 0.0.5
 
 ### Patch Changes

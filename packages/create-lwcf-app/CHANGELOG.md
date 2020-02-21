@@ -1,5 +1,13 @@
 # create-lwcf-app
 
+## 0.0.6
+
+### Patch Changes
+
+- 8790af7: Added production files
+- Updated dependencies [8790af7]
+  - lwcf@0.0.6
+
 ## 0.0.5
 
 ### Patch Changes
