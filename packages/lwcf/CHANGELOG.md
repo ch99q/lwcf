@@ -1,5 +1,11 @@
 # lwcf
 
+## 0.0.7
+
+### Patch Changes
+
+- b88c652: Added content to releases
+
 ## 0.0.6
 
 ### Patch Changes
