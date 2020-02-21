@@ -42,23 +42,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
+      - run: yarn publish-ci
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-      - run: yarn publish-ci
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: "@ch99q"
-      - run: yarn
-      - run: 'echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
-        env:
-          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: yarn publish-ci
